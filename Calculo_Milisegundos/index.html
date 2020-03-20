@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Milisegundos</title>
+</head>
+<body>
+	<center>
+	<input id="first" value="1/1/2000"/>
+	<input id="second" value="13/3/2020"/>
+	<script type="text/javascript">
+		function parseDate(str) {
+    		var mdy = str.split('/');
+    		return new Date(mdy[2], mdy[0]-1, mdy[1]);
+		}
+		function datediff(first, second) {
+    		return Math.round((second-first)*86400000);
+		}
+		alert(datediff(parseDate(first.value), parseDate(second.value)));
+	</script><br><br><br>
+	<form action="index.html">
+		<input type="submit" value="Calcular">
+	</form>
+	</center>
+</body>
+</html>

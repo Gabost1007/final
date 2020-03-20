@@ -1,0 +1,8 @@
+nombre:Calculo diagonal 
+fecha: 10 de marzo de 2020
+copyrigt: Jhon Gabriel Silva Tibaduiza
+version: 1.0
+descripcion:En el programa podemos observar dos input donde vamos a ingresar los dos valores, al momento de tener los valores damos clic
+	en el boton con esto llamamos el script para calcular la diagonal.
+
+

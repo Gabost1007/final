@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadena</title>
+</head>
+<body>
+
+<center>
+    <h1><b>Programa para calcular caracteres</b></h1>
+
+<script>
+  function wordCount() {
+    textoArea = document.getElementById("area").value;
+    numeroCaracteres = textoArea.length;
+    textoAreaDividido = textoArea.split(" ");
+    numeroPalabras = textoAreaDividido.length;
+    tC = (numeroCaracteres==1)?" carácter":" caracteres";
+    alert (numeroCaracteres + tC);
+  }
+</script>
+
+<FORM>
+<TEXTAREA ID="area" COLS=20 ROWS=10></TEXTAREA><BR>
+<INPUT TYPE="button" VALUE="Contar las palabras" onClick="wordCount();">
+</FORM>
+</center>
+</body>
+</html>

@@ -1,0 +1,8 @@
+nombre:Document
+fecha: 10 de marzo de 2020
+copyrigt: Jhon Gabriel Silva Tibaduiza
+version: 1.0
+descripcion: En este archivo tenermos un index el cual contiene el cambio de color de dos alertas flotantes que fueron creadas directamente
+	en el codigo.  
+
+

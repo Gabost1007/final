@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diagonal</title>
+</head>
+<body>
+	<center>
+		<form>
+			<p>
+				Ingrese el primer valor
+			</p><br><br>
+			<input type="number" name="primer" id="uno"><br><br>
+			<p>
+				Ingrese el segundo valor
+			</p>
+			<input type="number" name="segundo" id="dos"><br><br>
+			<button id="calcular">Calcular</button>
+		</form>
+		<script type="text/javascript">
+			var boton = document.getElementById("calcular");
+			boton.addEventListener("click", () => {
+				var numero1 = document.getElementById("uno").value;
+				var numero2 = document.getElementById("dos").value;
+
+				var diagonal = Math.hypot(numero1, numero2);
+
+				alert("El resultado es: "+ diagonal)
+			});
+		</script>
+	</center>
+</body>
+</html>

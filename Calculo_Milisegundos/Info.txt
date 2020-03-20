@@ -1,0 +1,9 @@
+nombre:Calculo Milisegundos
+fecha: 10 de marzo de 2020
+copyrigt: Jhon Gabriel Silva Tibaduiza
+version: 1.0
+descripcion: En la pagina observamos dos input con dos fechas distintas, una es del año 2000 y la otra la fecha actual, con esto cuando 
+	abrimos la pagina nos sale una alerta con el calculo de los millisegundos que hay entre las dos fechas.
+  
+
+

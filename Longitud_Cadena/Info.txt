@@ -1,0 +1,8 @@
+nombre:Calculo Cadena de texto
+fecha: 10 de marzo de 2020
+copyrigt: Jhon Gabriel Silva Tibaduiza
+version: 1.0
+descripcion: En ella encontramos un area de texto en el cual colocamos el text que deseamos operar, al tener todo el texto damos clic
+	en el boton calcular para que este nos de como resultado una alerta la cual contiene el numero total de palabras escritas.  
+
+

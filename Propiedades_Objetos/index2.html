@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Color </title>
+	</head>
+	<frameset cols="50%, 50%">
+		<frame src="3.12a-Marcos1.html" name="Marco1" noresize=>
+		<frame src="3.12a-Marcos2.html" name="Marco2" noresize=>
+	</frameset>
+	<body>
+		<form>
+			<input type="button" value="Cambiar color" onclick="campoColor = parent.Marco1.document.form1.color
+				if (campoColor.selectedIndex==0) {
+					colorin = 'Gris';
+					}else{
+						colorin = 'blue';
+					}
+					campoFrame = parent.Marco1.document.form1.marcos
+					if (campoFrame.selectedIndex==0) {
+						window.parent.Marco2.document.bgColor = colorin
+				}">
+		</form>
+	</body>
+	<script type="text/javascript">
+		document.write("<form name=\"cambiocolor\">");
+		document.write("<b>Seleciona un color para el fondo</b><br>");
+		document.write("<select name=\"color\">");
+		document.write("<option value=\"red\">Rojo</option>");
+		document.write("<option value=\"Blue\">Azul</option>");
+		document.write("<option value=\"yellow\">Amarillo</option>");
+		document.write("</select>");
+		document.write("input type=\"button\"value=\"modifica el color\" onclick=\"document.bgColor=document.cambiocolor.color.value\">");
+		document.write("</form>");
+	</script>
+</html>
